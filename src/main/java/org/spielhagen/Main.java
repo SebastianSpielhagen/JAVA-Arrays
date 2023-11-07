@@ -24,7 +24,7 @@ public class Main {
         }
         System.out.println();
         // Integer ist ein Wrapper für int (Comlex Data Type). Integer ist ein Objekt und int ist ein primitiver Datentyp
-        // for each Schleife. Geht jedes Element durch und gibt es aus. Geht von vorne nach hinten.
+        // for each Schleife. Geht jedes Element durch und gibt es aus. Geht NUR von vorne nach hinten, ansonsten die "noramle" for Schleife verwenden
         // for (variable (laufvariable) : array welches durchlaufen werden soll {
         //      was soll mit den werten in der variable gemacht werden
         for (Integer currywurst : numbers2) {
